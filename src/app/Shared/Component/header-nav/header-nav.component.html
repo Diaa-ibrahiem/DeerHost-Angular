@@ -1,0 +1,62 @@
+<!-- Header Area  -->
+<header>
+    <div class="container">
+        <!-- Upper nav  -->
+        <div class="upperNav">
+            <div class="row">
+                <div class="col-md">
+                    <div class="leftUpper">
+                        <i class="fas fa-phone-alt"></i>
+                        <span class="d-inline-block">785+54545</span>
+                        <i class="fas fa-envelope"></i><span class="d-inline-block">diaaibrahiem646@gmail</span>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="rightUpper text-right">
+                        <i class="fas fa-comments"></i><span class="d-inline-block">Life chat</span>
+                        <i class="fas fa-user-alt"></i><span class="d-inline-block">Log In/Register</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar  -->
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" routerLink=''><i class="fas fa-database"></i> Tetra DSA </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink='' [routerLinkActiveOptions]="{exact: true}"
+                            routerLinkActive="activeRouter">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink='About' routerLinkActive="activeRouter" tabindex="-1"
+                            aria-disabled="true">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" [queryParams]='{test:true}' routerLink='Hosting'
+                            routerLinkActive="activeRouter" tabindex="-1" aria-disabled="true">Hosting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink='Prices' routerLinkActive="activeRouter" tabindex="-1"
+                            aria-disabled="true">Prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink='News' routerLinkActive="activeRouter" tabindex="-1"
+                            aria-disabled="true">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink='Contact' routerLinkActive="activeRouter" tabindex="-1"
+                            aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- Header End -->

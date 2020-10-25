@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/skeletonApp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

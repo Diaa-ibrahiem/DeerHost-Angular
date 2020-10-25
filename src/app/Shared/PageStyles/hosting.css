@@ -1,0 +1,122 @@
+:root {
+  --mainColor: #4c57d6;
+}
+
+.Hosting {
+  padding: 70px 0;
+}
+.Hosting h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.HostPlanHeader {
+  display: flex;
+  background: #f5f5f5;
+  text-align: center;
+}
+.hostType {
+  padding: 35px 25px;
+  width: 20%;
+  cursor: pointer;
+}
+.hostType.active {
+  background-color: var(--mainColor);
+  color: #fff;
+}
+.hostType svg:not(:root).svg-inline--fa {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.hostType span {
+  font-size: 18px;
+}
+
+#TabelHeadOne {
+  padding: 70px 25px;
+}
+#TabelHeadOne span {
+  color: var(--mainColor);
+}
+#TabelHeadOne h4 {
+  font-weight: bold;
+  padding: 10px 0;
+}
+thead th.tableHead.text-center {
+  width: 220px;
+  padding: 45px 25px;
+}
+.tableHead h4 {
+  font-weight: bold;
+}
+.tableHead h3 {
+  font-weight: bold;
+  color: var(--mainColor);
+  font-size: 35px;
+}
+.tableHead span {
+  display: block;
+  /* padding: 10px 0; */
+}
+.tableHead a {
+  background: #f2f2f2;
+  border: 1px solid var(--mainColor);
+  color: #000;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 15px;
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+}
+.tableHead a:hover {
+  background: var(--mainColor);
+  color: #fff;
+}
+th.TableRow,
+td.TableRow {
+  padding: 10px 25px;
+  line-height: 2;
+  text-align: center;
+}
+th.TableRow {
+  text-align: left;
+}
+td svg:not(:root).svg-inline--fa {
+  color: var(--mainColor);
+}
+td svg.svg-inline--fa.fa-times-circle.fa-w-16 {
+  color: red;
+}
+
+/* Media query  */
+
+/* Large Laptop */
+@media (max-width: 1440px) {
+}
+/* Tablets  */
+@media (max-width: 768px) {
+}
+
+/* large Mobile  */
+@media (max-width: 425px) {
+  .hostType {
+    padding: 35px 8px;
+  }
+  .hostType span {
+    font-size: 14px;
+  }
+}
+
+/* medium Mobile  */
+@media (max-width: 375px) {
+}
+/* small Mobile  */
+@media (max-width: 320px) {
+  .hostType {
+    padding: 25px 0;
+  }
+  .hostType span {
+    font-size: 11px;
+  }
+}

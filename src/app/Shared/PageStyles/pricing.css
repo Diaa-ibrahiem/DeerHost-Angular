@@ -1,0 +1,59 @@
+:root {
+  --mainColor: #4c57d6;
+  --anotherMaincolor: #fb397d;
+}
+.Questions {
+  padding: 70px 0;
+}
+.plans {
+  padding: 100px 0;
+}
+.accordion .card-header {
+  background-color: rgba(144, 152, 255, 0.53);
+  font-weight: bold;
+  padding: 5px;
+}
+
+.accordion .card-header button span {
+  font-size: 13px;
+  color: #000;
+}
+.accordion .card-header button svg:not(:root).svg-inline--fa {
+  color: #111755;
+  margin-right: 8px;
+}
+
+/* Media query  */
+
+/* Large Laptop */
+@media (max-width: 1440px) {
+}
+/* Tablets  */
+@media (max-width: 768px) {
+}
+
+/* large Mobile  */
+@media (max-width: 425px) {
+  .FormContact {
+    margin-top: 20px;
+  }
+}
+
+/* medium Mobile  */
+@media (max-width: 375px) {
+}
+/* small Mobile  */
+@media (max-width: 320px) {
+  .Questions h1 {
+    font-size: 26px;
+  }
+  #headingOne button {
+    padding: 10px 2px;
+  }
+  .accordion .card-header button span {
+    font-size: 12px;
+  }
+  .card-header > h2 > button {
+    padding: 10px 2px;
+  }
+}

@@ -1,0 +1,156 @@
+:root {
+  --mainColor: #4c57d6;
+  --anotherMaincolor: #fb397d;
+}
+
+.aboutWelcome {
+  padding: 70px 0;
+}
+
+.welcomeImg {
+  margin-bottom: 30px;
+}
+.WlecomeRecord h2 {
+  font-weight: bold;
+}
+.WlecomeRecord > p {
+  color: #444;
+  font-size: 14px;
+  text-align: justify;
+  margin: 20px 0;
+}
+.recordData {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.recordItem h4 {
+  color: #000;
+}
+.recordItem p {
+  color: #888;
+  text-transform: uppercase;
+}
+
+.RecordBtn button {
+  min-width: 200px;
+  background-color: var(--mainColor);
+  padding: 10px 20px;
+  color: #fff;
+  height: auto;
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+.RecordBtn button:hover {
+  background-color: #2c38b8 !important;
+  color: #fff !important;
+}
+
+.host svg:not(:root).svg-inline--fa {
+  overflow: visible;
+  color: #313175;
+  width: 37px;
+  height: 40px;
+}
+
+/* TeamArea :start  */
+.TeamArea {
+  padding: 70px 0;
+}
+.View {
+  display: flex;
+  justify-content: flex-end;
+}
+.View a {
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 0;
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--mainColor);
+  color: #fff;
+  text-decoration: none;
+  width: 50%;
+}
+
+.no-gutters {
+  /* padding: 35px 10px 20px 10px; */
+  display: flex;
+}
+.cardImg {
+  width: 30%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.cardImg img {
+  width: 135px;
+  padding-left: 14px;
+  border-radius: 50%;
+}
+.card-body {
+  width: 70%;
+  padding: 20px 10px;
+}
+
+.card-body h5 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.card-body span {
+  color: var(--mainColor);
+  font-size: 12px;
+}
+.card-body p {
+  font-size: 13px;
+  color: #888888;
+  margin-top: 10px;
+}
+
+.card-text > ul.social {
+  margin: 0;
+}
+.card-text > ul.social li {
+  margin-bottom: 0;
+}
+.card-text > ul.social svg:not(:root).svg-inline--fa {
+  width: 15px !important;
+}
+.card-text > ul.social svg.svg-inline--fa.fa-facebook-f.fa-w-10 {
+  font-size: 20px;
+}
+
+/* Media query  */
+
+/* Large Laptop */
+@media (max-width: 1440px) {
+}
+/* Tablets  */
+@media (max-width: 768px) {
+}
+
+/* large Mobile  */
+@media (max-width: 425px) {
+  .View {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+}
+
+/* medium Mobile  */
+@media (max-width: 375px) {
+}
+/* small Mobile  */
+@media (max-width: 320px) {
+  .WlecomeRecord h2 {
+    font-size: 22px;
+  }
+  .recordItem h4 {
+    font-size: 20px;
+  }
+  .recordItem p {
+    font-size: 12px;
+  }
+}
